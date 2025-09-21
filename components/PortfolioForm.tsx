@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import type { PortfolioItem } from '../types';
-import { Card } from './shared/Card';
-import { Button } from './shared/Button';
+import type { PortfolioItem } from '../types.ts';
+import { Card } from './shared/Card.tsx';
+import { Button } from './shared/Button.tsx';
 
 interface PortfolioFormProps {
   item: PortfolioItem | null;

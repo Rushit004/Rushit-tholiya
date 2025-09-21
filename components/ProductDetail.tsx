@@ -1,7 +1,7 @@
 import React from 'react';
-import type { Product } from '../types';
-import { Button } from './shared/Button';
-import { Icon } from './shared/Icon';
+import type { Product } from '../types.ts';
+import { Button } from './shared/Button.tsx';
+import { Icon } from './shared/Icon.tsx';
 
 interface ProductDetailProps {
   product: Product;

@@ -1,11 +1,11 @@
 import React, { useState, useMemo } from 'react';
-import type { ArtisanProfile } from '../types';
-import { Card } from './shared/Card';
-import { Button } from './shared/Button';
-import { Icon } from './shared/Icon';
-import { Spinner } from './shared/Spinner';
-import { getAiSourcedSuggestions } from '../services/apiService';
-import { FOLLOWERS_DATA } from '../constants';
+import type { ArtisanProfile } from '../types.ts';
+import { Card } from './shared/Card.tsx';
+import { Button } from './shared/Button.tsx';
+import { Icon } from './shared/Icon.tsx';
+import { Spinner } from './shared/Spinner.tsx';
+import { getAiSourcedSuggestions } from '../services/apiService.ts';
+import { FOLLOWERS_DATA } from '../constants.ts';
 
 interface ConnectionsProps {
   currentUser: ArtisanProfile;

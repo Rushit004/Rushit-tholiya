@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import type { DeliveryDetails, ArtisanProfile } from '../types';
-import { Card } from './shared/Card';
-import { Button } from './shared/Button';
-import { Icon } from './shared/Icon';
+import type { DeliveryDetails, ArtisanProfile } from '../types.ts';
+import { Card } from './shared/Card.tsx';
+import { Button } from './shared/Button.tsx';
+import { Icon } from './shared/Icon.tsx';
 
 interface CheckoutFormProps {
     onClose: () => void;

@@ -1,8 +1,8 @@
 import React from 'react';
-import type { Product, CartItem } from '../types';
-import { Card } from './shared/Card';
-import { Button } from './shared/Button';
-import { Icon } from './shared/Icon';
+import type { Product, CartItem } from '../types.ts';
+import { Card } from './shared/Card.tsx';
+import { Button } from './shared/Button.tsx';
+import { Icon } from './shared/Icon.tsx';
 
 interface CartProps {
   cartItems: CartItem[];

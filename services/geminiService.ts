@@ -1,4 +1,4 @@
-import type { ArtisanProfile, Product } from "../types";
+import type { ArtisanProfile, Product } from "../types.ts";
 
 /**
  * MOCK IMPLEMENTATION for static hosting.

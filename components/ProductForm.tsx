@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import type { Product, ArtisanProfile } from '../types';
-import { Card } from './shared/Card';
-import { Button } from './shared/Button';
+import type { Product, ArtisanProfile } from '../types.ts';
+import { Card } from './shared/Card.tsx';
+import { Button } from './shared/Button.tsx';
 
 interface ProductFormProps {
   product: Product | null;

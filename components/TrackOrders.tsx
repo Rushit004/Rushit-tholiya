@@ -1,7 +1,7 @@
 import React from 'react';
-import type { Order, Product } from '../types';
-import { Card } from './shared/Card';
-import { Icon } from './shared/Icon';
+import type { Order, Product } from '../types.ts';
+import { Card } from './shared/Card.tsx';
+import { Icon } from './shared/Icon.tsx';
 
 interface TrackOrdersProps {
   orders: Order[];

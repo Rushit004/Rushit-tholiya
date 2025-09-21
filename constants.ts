@@ -1,4 +1,4 @@
-import type { ArtisanProfile, MonthlySales, EngagementData, Product, PortfolioItem } from './types';
+import type { ArtisanProfile, MonthlySales, EngagementData, Product, PortfolioItem } from './types.ts';
 
 export const ARTISAN_PROFILE: ArtisanProfile = {
   id: 'user1',

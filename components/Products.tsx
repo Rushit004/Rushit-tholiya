@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import type { Product, ArtisanProfile } from '../types';
-import { Card } from './shared/Card';
-import { Button } from './shared/Button';
-import { ProductForm } from './ProductForm';
+import type { Product, ArtisanProfile } from '../types.ts';
+import { Card } from './shared/Card.tsx';
+import { Button } from './shared/Button.tsx';
+import { ProductForm } from './ProductForm.tsx';
 
 interface ProductsProps {
     userProducts: Product[];
