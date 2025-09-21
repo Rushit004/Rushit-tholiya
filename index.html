@@ -60,23 +60,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-    <script type="importmap">
+  <script type="importmap">
 {
   "imports": {
-    "react": "https://esm.sh/react@beta",
-    "react-dom/client": "https://esm.sh/react-dom@beta/client",
-    "recharts": "https://esm.sh/recharts@2.12.7",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
     "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
-    "react/": "https://aistudiocdn.com/react@^19.1.1/"
+    "recharts": "https://aistudiocdn.com/recharts@^3.2.1"
   }
 }
 </script>
-    <!-- Add Babel for in-browser JSX/TS transpilation -->
-    <script src="https://unpkg.com/@babel/standalone@7/babel.min.js"></script>
-  </head>
+<!-- Add Babel for in-browser JSX/TS transpilation -->
+<script src="https://unpkg.com/@babel/standalone@7/babel.min.js"></script>
+</head>
   <body class="bg-brand-light">
     <div id="root"></div>
-    <!-- Update script tag to be processed by Babel, adding presets for React and TypeScript -->
-    <script type="text/babel" data-presets="react,typescript" data-type="module" src="index.tsx"></script>
+    <!-- Update script tag to be processed by Babel -->
+    <script type="text/babel" data-type="module" src="/index.tsx"></script>
   </body>
 </html>
