@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Button } from './shared/Button.tsx';
-import { Card } from './shared/Card.tsx';
-import type { UserRegistration } from '../types.ts';
-import * as api from '../services/apiService.ts';
+import { Button } from './shared/Button';
+import { Card } from './shared/Card';
+import type { UserRegistration } from '../types';
+import * as api from '../services/apiService';
 
 interface AuthProps {
   onLogin: (email: string, password: string, rememberMe: boolean) => Promise<void>;

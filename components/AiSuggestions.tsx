@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { getArtisanSuggestions } from '../services/geminiService.ts';
-import { Card } from './shared/Card.tsx';
-import { Spinner } from './shared/Spinner.tsx';
-import { Button } from './shared/Button.tsx';
-import type { ArtisanProfile } from '../types.ts';
+import { getArtisanSuggestions } from '../services/geminiService';
+import { Card } from './shared/Card';
+import { Spinner } from './shared/Spinner';
+import { Button } from './shared/Button';
+import type { ArtisanProfile } from '../types';
 
 interface AiSuggestionsProps {
   user: ArtisanProfile;

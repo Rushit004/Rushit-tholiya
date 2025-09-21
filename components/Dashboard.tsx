@@ -1,8 +1,8 @@
 import React from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LineChart, Line } from 'recharts';
-import { Card } from './shared/Card.tsx';
-import { Spinner } from './shared/Spinner.tsx';
-import type { ArtisanProfile, DashboardData } from '../types.ts';
+import { Card } from './shared/Card';
+import { Spinner } from './shared/Spinner';
+import type { ArtisanProfile, DashboardData } from '../types';
 
 interface DashboardProps {
   data: DashboardData | null;

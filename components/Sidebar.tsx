@@ -1,6 +1,6 @@
 import React from 'react';
-import type { View, ArtisanProfile, Product } from '../types.ts';
-import { Icon } from './shared/Icon.tsx';
+import type { View, ArtisanProfile, Product } from '../types';
+import { Icon } from './shared/Icon';
 
 interface SidebarProps {
   user: ArtisanProfile;

@@ -1,10 +1,10 @@
 import React, { useState, useMemo, useEffect, useCallback } from 'react';
-import type { Product } from '../types.ts';
-import { Icon } from './shared/Icon.tsx';
-import { Card } from './shared/Card.tsx';
-import { Button } from './shared/Button.tsx';
-import { getAiSourcedSuggestions } from '../services/apiService.ts'; // Updated import
-import { Spinner } from './shared/Spinner.tsx';
+import type { Product } from '../types';
+import { Icon } from './shared/Icon';
+import { Card } from './shared/Card';
+import { Button } from './shared/Button';
+import { getAiSourcedSuggestions } from '../services/apiService'; // Updated import
+import { Spinner } from './shared/Spinner';
 
 const ProductCard: React.FC<{ 
     product: Product; 

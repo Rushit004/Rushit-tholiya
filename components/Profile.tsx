@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import type { ArtisanProfile, PortfolioItem } from '../types.ts';
-import { Card } from './shared/Card.tsx';
-import { Button } from './shared/Button.tsx';
-import { Icon } from './shared/Icon.tsx';
-import { PortfolioForm } from './PortfolioForm.tsx';
+import type { ArtisanProfile, PortfolioItem } from '../types';
+import { Card } from './shared/Card';
+import { Button } from './shared/Button';
+import { Icon } from './shared/Icon';
+import { PortfolioForm } from './PortfolioForm';
 
 interface ProfileProps {
   user: ArtisanProfile;

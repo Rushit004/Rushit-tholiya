@@ -3,9 +3,9 @@
  * In a real application, this file would contain fetch calls to a REST or GraphQL API.
  * For now, it uses mock data and simulates asynchronous behavior with Promises.
  */
-import { ARTISAN_PROFILE, PRODUCTS_DATA, OTHER_ARTISANS_DATA, SALES_DATA, PROFIT_DATA, ENGAGEMENT_DATA } from '../constants.ts';
-import type { ArtisanProfile, Product, UserRegistration } from '../types.ts';
-import * as gemini from './geminiService.ts';
+import { ARTISAN_PROFILE, PRODUCTS_DATA, OTHER_ARTISANS_DATA, SALES_DATA, PROFIT_DATA, ENGAGEMENT_DATA } from '../constants';
+import type { ArtisanProfile, Product, UserRegistration } from '../types';
+import * as gemini from './geminiService';
 
 // --- MOCK DATABASE ---
 let usersDb: Record<string, { password: string; profile: ArtisanProfile }> = {

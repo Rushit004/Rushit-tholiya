@@ -1,9 +1,9 @@
 import React, { useState, useCallback } from 'react';
-import { generateProductDescription } from '../services/geminiService.ts';
-import { Card } from './shared/Card.tsx';
-import { Button } from './shared/Button.tsx';
-import { Spinner } from './shared/Spinner.tsx';
-import { Icon } from './shared/Icon.tsx';
+import { generateProductDescription } from '../services/geminiService';
+import { Card } from './shared/Card';
+import { Button } from './shared/Button';
+import { Spinner } from './shared/Spinner';
+import { Icon } from './shared/Icon';
 
 export const AiProductDesc: React.FC = () => {
   const [imageFile, setImageFile] = useState<File | null>(null);
